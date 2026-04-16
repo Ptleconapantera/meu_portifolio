@@ -181,7 +181,7 @@ nav {
 .hero-role {
   margin-top: 2rem;
   max-width: 520px;
-  font-family: 'Grift', var(--font-body);
+  font-family: var(--font-body);
   font-weight: 400;
   font-size: 1.12rem;
   line-height: 1.6;
@@ -631,21 +631,10 @@ footer {
   }
 }
 
-/* Local display font: MBF Space (place files in Public/Assets) */
+/* Local display font: MBF Space */
 @font-face {
   font-family: 'MBF Space';
-  src: url('/Assets/MBFSpace-Regular.woff2') format('woff2'),
-       url('/Assets/MBFSpace-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* Subtitle font: Grift Regular (place Grift-Regular.woff2 in Public/Assets) */
-@font-face {
-  font-family: 'Grift';
-  src: url('/Assets/Grift-Regular.woff2') format('woff2'),
-       url('/Assets/Grift-Regular.woff') format('woff');
+  src: url('./Assets/MBFSpace-Regular.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;

@@ -2,8 +2,9 @@ const { defineConfig } = require('vite');
 const path = require('path');
 
 module.exports = defineConfig({
-  root: path.resolve(__dirname, 'Pages/home'),
-  publicDir: path.resolve(__dirname, 'Public'),
+  base: '/meu_portifolio/',
+  root: __dirname,
+  publicDir: false,
   server: {
     port: 3000,
   },
