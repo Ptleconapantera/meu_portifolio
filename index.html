@@ -35,9 +35,11 @@
 
 <!-- HERO -->
 <section id="hero">
-  <div class="hero-backdrop"></div>
-  <div class="hero-orb hero-orb-left"></div>
-  <div class="hero-orb hero-orb-right"></div>
+  <video class="hero-video" autoplay muted loop playsinline preload="metadata" aria-hidden="true">
+    <source src="./Assets/tunel_cyberpunk.webm" type="video/webm" />
+    <source src="./Assets/tunel_cyberpunk.mov" type="video/quicktime" />
+  </video>
+  <div class="hero-video-overlay"></div>
   <div class="hero-layout">
     <div class="hero-copy">
       <h1 class="hero-name reveal">
@@ -54,12 +56,6 @@
         <a href="mailto:henriquemontenegro21@gmail.com" class="btn-outline">
           Falar comigo
         </a>
-      </div>
-    </div>
-
-    <div class="hero-media reveal">
-      <div class="hero-photo-wrap">
-        <img src="./Assets/eu.PNG" alt="Henrique Montenegro com visual cyberpunk" class="hero-photo" />
       </div>
     </div>
   </div>
